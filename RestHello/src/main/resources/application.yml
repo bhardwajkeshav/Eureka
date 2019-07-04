@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: RestServer
+server:
+  port: 9090
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone:
+       http://eureka:9092/eureka/
