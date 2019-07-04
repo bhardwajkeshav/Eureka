@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: CallRestServer
+server:
+  port: 9088
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone:
+       http://eureka:9092/eureka/
